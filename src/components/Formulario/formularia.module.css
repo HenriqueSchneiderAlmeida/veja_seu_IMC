@@ -38,3 +38,41 @@ h2, h4 {
     justify-content: center;
     text-align: center;
 }
+
+
+@media screen and (max-width: 767px) {
+    h2, h4 {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .input {
+        background-color: #50d9ff;
+        margin-top: 12px;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border: solid 2;
+        color: #a10000bb;
+        width: 80px;
+        }
+
+    .label {
+            font-size: 12px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color:rgb(20, 20, 82);    
+        }
+
+    .resposta {
+            font-size: 10px;
+            margin-top: 30px;  
+            max-width: 300px;          
+            background-color: #50d9ff61;
+            border: solid 2px;
+            text-align: center;
+            display: inline-block;
+            position: relative;
+            text-align: center;
+        }
+}
