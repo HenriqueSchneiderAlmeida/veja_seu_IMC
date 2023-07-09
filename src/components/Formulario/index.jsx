@@ -40,7 +40,7 @@ const Formulario = ({valorPeso}, {valorAltura}) => {
                     <input className={styles.input} type="text"
                         onChange={(e) => setEntraPeso(e.target.value)}></input>
                     <br />
-                    <label className={styles.label}><b> Digite aqui a sua altura: </b></label>
+                    <label className={styles.label}><b> Digite aqui a sua altura (em cm): </b></label>
                     <input className={styles.input} type="text"
                         onChange={(e) => setEntraAltura(e.target.value)}></input>            
                 </div>
