@@ -13,19 +13,19 @@ const Formulario = ({valorPeso}, {valorAltura}) => {
 
         if (resultado < 18.5) {
             return ( 
-                <p className={styles.resposta}>Voce é magro(a) IMC = {resultado}</p>
+                <p className={styles.resposta}>Voce é magro(a) IMC = {resultado.toFixed(2)}</p>
             )} 
         if (resultado > 18.5 && resultado < 24.9) {
             return (
-                <p className={styles.resposta}>Você está no peso ideal. IMC = {resultado}</p>
+                <p className={styles.resposta}>Você está no peso ideal. IMC = {resultado.toFixed(2)}</p>
             )}
         if (resultado > 24.9 && resultado < 30) {
             return (
-                <p className={styles.resposta}>Você está com sobrepeso. IMC = {resultado}</p>
+                <p className={styles.resposta}>Você está com sobrepeso. IMC = {resultado.toFixed(2)}</p>
             )}                
         if (resultado > 30) {
             return (
-                <p className={styles.resposta}>Você está obeso. IMC = {resultado}</p>
+                <p className={styles.resposta}>Você está obeso. IMC = {resultado.toFixed(2)}</p>
             )} else {
                 return (
                 <p className={styles.resposta}>IMC não localizado!</p>                
