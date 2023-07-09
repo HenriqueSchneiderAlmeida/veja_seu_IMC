@@ -1,0 +1,40 @@
+.label {
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(20, 20, 82);    
+}
+
+.input {
+background-color: #50d9ff;
+margin-top: 12px;
+font-size: 19px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border: solid 2;
+color: #a10000bb;
+width: 80px;
+}
+
+.resposta {
+    font-size: 19px;
+    margin-top: 30px;
+    width: 800px;
+    background-color: #50d9ff61;
+    border: solid 2px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.formGlobal {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
