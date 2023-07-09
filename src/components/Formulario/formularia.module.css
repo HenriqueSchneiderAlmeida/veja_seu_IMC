@@ -27,7 +27,7 @@ width: 80px;
     text-align: center;
 }
 
-h2 {
+h2, h3 {
     display: block;
     justify-content: center;
     text-align: center;
